@@ -26,23 +26,27 @@ namespace RedisDemoWeb
 
             if (isDraw)
             {
-                var result = Convert.ToInt32(RedisHelper.StringGet("draw"));
-                result--;
-                RedisHelper.StringSet("draw", result.ToString());
+                //获取库存
+                //var result = Convert.ToInt32(RedisHelper.StringGet("draw"));
+                //result--;
+                //RedisHelper.StringSet("draw", result.ToString());
+                var result = RedisHelper.StringIncrement("draw", -1);
 
-                //var result = RedisHelper.StringIncrement("draw", -1);
                 if (result < 0)
                 {
+                    //库存不足
                     context.Response.Write("谢谢参与");
                 }
                 else
                 {
+                    //记录中奖总数
                     RedisHelper.StringIncrement("drawnumber", 1);
                     context.Response.Write("中奖了");
                 }
             }
             else
             {
+                //未中奖
                 context.Response.Write("谢谢参与");
             }
         }
