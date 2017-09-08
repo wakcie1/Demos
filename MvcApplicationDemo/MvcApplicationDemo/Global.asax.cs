@@ -18,7 +18,20 @@ namespace MvcApplicationDemo
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            RegisterRoutes(RouteTable.Routes);
+
+            //RouteConfig.RegisterRoutes(RouteTable.Routes);
+        }
+
+        public static void RegisterRoutes(RouteCollection routes)
+        {
+            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+            //头部
+            routes.MapRoute(
+                "Base",
+                "login.html",
+                new { controller = "Base", action = "LoginPage", id = UrlParameter.Optional });
         }
     }
 }
