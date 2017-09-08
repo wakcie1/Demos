@@ -1,0 +1,10 @@
+D:\Test\TestC-E\Resources\bin\Debug\Resources.dll
+D:\Test\TestC-E\Resources\bin\Debug\Resources.pdb
+D:\Test\TestC-E\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+D:\Test\TestC-E\Resources\obj\Debug\Resources.Resources.resources
+D:\Test\TestC-E\Resources\obj\Debug\Resources.csproj.GenerateResource.Cache
+D:\Test\TestC-E\Resources\obj\Debug\Resources.dll
+D:\Test\TestC-E\Resources\obj\Debug\Resources.pdb
+D:\Test\TestC-E\Resources\bin\Debug\zh\Resources.resources.dll
+D:\Test\TestC-E\Resources\obj\Debug\Resources.Resources.zh.resources
+D:\Test\TestC-E\Resources\obj\Debug\zh\Resources.resources.dll
