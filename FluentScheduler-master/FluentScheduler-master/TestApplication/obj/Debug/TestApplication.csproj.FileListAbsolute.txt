@@ -1,0 +1,16 @@
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\bin\Debug\Fresh.dll
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\bin\Debug\L.dll
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\bin\Debug\FluentScheduler.Tests.TestApplication.exe
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\bin\Debug\FluentScheduler.Tests.TestApplication.pdb
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\bin\Debug\FluentScheduler.dll
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\bin\Debug\FolderCleaner.dll
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\bin\Debug\FluentScheduler.pdb
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\bin\Debug\FolderCleaner.pdb
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\bin\Debug\FolderCleaner.xml
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\bin\Debug\Fresh.pdb
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\bin\Debug\Fresh.xml
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\bin\Debug\L.pdb
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\bin\Debug\L.xml
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\obj\Debug\TestApplication.csprojResolveAssemblyReference.cache
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\obj\Debug\FluentScheduler.Tests.TestApplication.exe
+D:\Test\FluentScheduler-master\FluentScheduler-master\TestApplication\obj\Debug\FluentScheduler.Tests.TestApplication.pdb

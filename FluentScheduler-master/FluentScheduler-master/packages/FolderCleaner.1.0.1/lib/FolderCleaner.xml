@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FolderCleaner</name>
+    </assembly>
+    <members>
+        <member name="T:FolderCleaning.FileTimestamps">
+            <summary>
+            File available timestamps.
+            </summary>
+        </member>
+        <member name="F:FolderCleaning.FileTimestamps.Creation">
+            <summary>
+            Date of the file creation.
+            </summary>
+        </member>
+        <member name="F:FolderCleaning.FileTimestamps.LastAccess">
+            <summary>
+            Date of the last access of the file.
+            </summary>
+        </member>
+        <member name="F:FolderCleaning.FileTimestamps.LastWrite">
+            <summary>
+            Date of the last write of the file.
+            </summary>
+        </member>
+        <member name="T:FolderCleaning.FolderCleaner">
+            <summary>
+            Periodically cleans up a folder.
+            </summary>
+        </member>
+        <member name="F:FolderCleaning.FolderCleaner.FolderPath">
+            <summary>
+            Path of the folder to periodically cleanup.
+            </summary>
+        </member>
+        <member name="F:FolderCleaning.FolderCleaner.MinimumFileLifetime">
+            <summary>
+            The minimum lifetime of the file to be deleted.
+            </summary>
+        </member>
+        <member name="F:FolderCleaning.FolderCleaner.CleanPeriod">
+            <summary>
+            How often the cleanup occurs.
+            </summary>
+        </member>
+        <member name="F:FolderCleaning.FolderCleaner.TimestampToUse">
+            <summary>
+            Timestamp used to determine if the file must be deleted.
+            </summary>
+        </member>
+        <member name="F:FolderCleaning.FolderCleaner._cleanLock">
+            <summary>
+            For thread safety.
+            </summary>
+        </member>
+        <member name="F:FolderCleaning.FolderCleaner._timer">
+            <summary>
+            Cleanup timer.
+            </summary>
+        </member>
+        <member name="M:FolderCleaning.FolderCleaner.#ctor(System.String,System.TimeSpan,System.TimeSpan,FolderCleaning.FileTimestamps)">
+            <summary>
+            Constructs and starts the cleaner.
+            </summary>
+            <param name="folderPath">Path of the folder to periodically cleanup</param>
+            <param name="minimumFileLifetime">The minimum lifetime of the file to be deleted</param>
+            <param name="cleanPeriod">How often the cleanup occurs</param>
+            <param name="timestampToUse">Timestamp to use to determine if the file must be deleted</param>
+        </member>
+        <member name="M:FolderCleaning.FolderCleaner.Dispose">
+            <summary>
+            Disposes this folder cleaner and it's underlying timer.
+            </summary>
+        </member>
+        <member name="M:FolderCleaning.FolderCleaner.CleanFiles(System.Object)">
+            <summary>
+            Performs the cleanup.
+            </summary>
+            <param name="ignored">State object passed by the timer class</param>
+        </member>
+        <member name="M:FolderCleaning.FolderCleaner.CheckTimestamp(FolderCleaning.FileTimestamps)">
+            <summary>
+            Checks if the given timestamp is a valid FileTimestamps enum value.
+            </summary>
+            <param name="timestamp">Value to check</param>
+            <exception cref="T:System.ComponentModel.InvalidEnumArgumentException">
+            If an value not present in FileTimestamps enum was given
+            </exception>
+        </member>
+        <member name="M:FolderCleaning.FolderCleaner.GetTimestamp(System.IO.FileInfo)">
+            <summary>
+            Returns the file timestamp to use for the cleanup.
+            </summary>
+            <param name="file">File to get the timestamp</param>
+            <returns>Timestamp to use for the cleanup</returns>
+        </member>
+    </members>
+</doc>

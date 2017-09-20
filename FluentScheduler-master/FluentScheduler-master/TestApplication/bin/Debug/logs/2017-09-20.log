@@ -1,0 +1,19 @@
+2017-09-20 16:09:42 [job start]     [welcome] has started.
+2017-09-20 16:09:42 [job start]     [late] has started.
+2017-09-20 16:09:42 [late]          This was added after the initialize call.
+2017-09-20 16:09:42 [job end]       [late] has ended.
+2017-09-20 16:09:42 [job end]       [welcome] has ended.
+2017-09-20 16:09:43 [job start]     [non reentrant] has started.
+2017-09-20 16:09:43 [non reentrant] Sleeping a minute...
+2017-09-20 16:10:43 [job end]       [non reentrant] has ended with duration of 00:01:00.0015367.
+2017-09-20 16:10:44 [job start]     [non reentrant] has started.
+2017-09-20 16:10:44 [non reentrant] Sleeping a minute...
+2017-09-20 16:11:44 [job end]       [non reentrant] has ended with duration of 00:01:00.0009660.
+2017-09-20 16:11:45 [job start]     [non reentrant] has started.
+2017-09-20 16:11:45 [non reentrant] Sleeping a minute...
+2017-09-20 16:12:45 [job end]       [non reentrant] has ended with duration of 00:01:00.0017740.
+2017-09-20 16:12:46 [job start]     [non reentrant] has started.
+2017-09-20 16:12:46 [non reentrant] Sleeping a minute...
+2017-09-20 16:13:46 [job end]       [non reentrant] has ended with duration of 00:01:00.0017731.
+2017-09-20 16:13:47 [job start]     [non reentrant] has started.
+2017-09-20 16:13:47 [non reentrant] Sleeping a minute...

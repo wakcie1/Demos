@@ -1,0 +1,7 @@
+D:\Test\FluentScheduler-master\FluentScheduler-master\Library\bin\Debug\FluentScheduler.dll
+D:\Test\FluentScheduler-master\FluentScheduler-master\Library\bin\Debug\FluentScheduler.pdb
+D:\Test\FluentScheduler-master\FluentScheduler-master\Library\bin\Debug\FluentScheduler.dll.CodeAnalysisLog.xml
+D:\Test\FluentScheduler-master\FluentScheduler-master\Library\bin\Debug\FluentScheduler.dll.lastcodeanalysissucceeded
+D:\Test\FluentScheduler-master\FluentScheduler-master\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+D:\Test\FluentScheduler-master\FluentScheduler-master\Library\obj\Debug\FluentScheduler.dll
+D:\Test\FluentScheduler-master\FluentScheduler-master\Library\obj\Debug\FluentScheduler.pdb
